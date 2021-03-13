@@ -22,13 +22,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -400px -500px, 700px 400px;
 }
 
 section {
   background: white;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 15px;
-  width: 500px;
+  width: 350px;
+  height: 380px;
   margin: auto;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 
@@ -36,6 +42,13 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+section > img {
+  width: 350px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: -30px;
 }
 
 .profile {
@@ -47,18 +60,34 @@ section {
 
 .profile > img {
   border-radius: 50%;
+  margin-top: -50px;
+  border: solid 5px white;
 }
 
 .profile > div {
   display: flex;
   width: 220px;
   justify-content: space-around;
+  margin-top: 20px;
+}
+
+.profile > div > h2 {
+  font-weight: 400;
+  color: var(--DarkGray);
+}
+
+.profile > p {
+  font-weight: 400;
+  color: var(--DarkGray);
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .profileStatus {
   display: flex;
-  width: 470px;
+  width: 350px;
   justify-content: space-around;
+  font-size: 13px;
 }
 
 .StatusOfNumbersProfile {
@@ -66,4 +95,18 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.StatusOfNumbersProfile > p {
+  font-weight: 400;
+  color: var(--DarkGray);
+  margin-top: 10px;
+}
+
+.alternative {
+  content: "";
+  height: 0.2px;
+  width: 350px;
+  background: var(--DarkGray);
+  margin-bottom: 10px;
 }
