@@ -45,14 +45,7 @@
 <br>
 
 ## :dart: About ##
-
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+Challenge made on the website  <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>
 
 ## :rocket: Technologies ##
 
@@ -60,10 +53,6 @@ The following tools were used in this project:
 
 - HTML 5
 - CSS 3
-
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## :checkered_flag: Starting ##
 
