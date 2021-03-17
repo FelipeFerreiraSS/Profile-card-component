@@ -45,7 +45,7 @@
 <br>
 
 ## :dart: About ##
-Challenge made on the website  <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>
+Challenge made on the website  <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. Check out the project <a href="https://felipeferreirass.github.io/Profile-card-component/" target="_blank">here</a>
 
 ## :rocket: Technologies ##
 
